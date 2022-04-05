@@ -1,15 +1,16 @@
 import Head from 'next/head'
 
-export default function Home() {
+const about = () => {
   return (
     <div>
-
       <Head>
-        <title>Webdev newz</title>
+        <title>About</title>
         <meta name='keywords' content='web dev, programming'/>
       </Head>
 
-      <h1>Welcome to Next.js!</h1>
+        <h1>About</h1>
     </div>
   )
 }
+
+export default about
